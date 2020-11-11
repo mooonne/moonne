@@ -4,3 +4,8 @@ permalink: ':title'
 highlighter: pygments
 safe: false
 title: 'Carte'
+
+remote_theme : Wiredcraft/carte
+
+url                      : "https://mooonne.github.io" 
+baseurl                  : "https://mooonne.github.io/moonne"
