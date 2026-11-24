@@ -1,11 +1,27 @@
----
-exclude: ['README.markdown']
-permalink: ':title'
-highlighter: pygments
-safe: false
-title: 'Carte'
+title: moonne
+description: 만들고 있는 것들을 기록하는 개발 블로그
+url: "https://mooonne.github.io"
+baseurl: "/moonne"
+lang: ko
 
-remote_theme : Wiredcraft/carte
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-url                      : "https://mooonne.github.io" 
-baseurl                  : "https://mooonne.github.io/moonne"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+
+minima:
+  date_format: "%Y.%m.%d"
+
+header_pages:
+  - about.md
+
+exclude:
+  - README.md
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }

@@ -1,8 +1,7 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+title: "첫 글"
+date: 2020-11-11 12:00:00 +0900
+categories: 일상
 ---
 
-
-배고파 
+배고파
